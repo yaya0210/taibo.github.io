@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UFT-8">
+    <meta HTTP-EQUIV="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>taiwan game </title>
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="forms">
+            <div class="form login">
+                <span class="title">登入</span>
+
+                <form action="#">
+                    <div class="input-field">
+                        <input type="text" placeholder="帳號" required>
+                        <i class="uil uil-user icon"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" class="password" placeholder="密碼" required>
+                        <i class="uil uil-lock icon"></i>
+                        <i class="uil uil-eye-slash showHidePw"></i>
+                    </div>
+
+                    <div class="checkbox-text">
+                        <div class="checkbox-content">
+                            <input type="checkbox" id="logCheck">
+                            <label for="logCheck"class="text">記住密碼</label>
+                        </div>
+
+                        <a href="#" class="text">忘記密碼?</a>
+                    </div>
+
+                    <div class="input-field button">
+                        <input type="button" value="立即登入">
+                    </div>
+                </form>
+
+                <div class="login-signup">
+                    <span class="text">沒有帳號?
+                        <a href="#" class="text signup-link">註冊</a>
+                    </span>
+                </div>
+            </div>
+
+            <!--Registration Form -->
+            <div class="form signup">
+                <span class="title">註冊</span>
+                <form action="#">
+                    <div class="input-field">
+                        <input type="text" placeholder="帳號" required>
+                        <i class="uil uil-user icon"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" class="password" placeholder="密碼" required>
+                        <i class="uil uil-lock icon"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" class="password" placeholder="確認密碼" required>
+                        <i class="uil uil-lock icon"></i>
+                        <i class="uil uil-eye-slash showHidePw"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" placeholder="手機號碼" required>
+                        <i class="uil uil-phone-alt"></i>
+                    </div>
+                    <div class="checkbox-text">
+                        <div class="checkbox-content">
+                            <input type="checkbox" id="sigCheck">
+                            <label for="sigCheck"class="text">我已滿18歲並同意相關規範</label>
+                        </div>
+                            
+                        <a href="#" class="text">服務條款</a>
+                    </div>
+
+                    <div class="input-field button">
+                        <input type="button" value="註冊送出">
+                    </div>
+                </form>
+
+                <div class="login-signup">
+                    <span class="text">沒有帳號?
+                        <a href="#" class="text login-link">註冊</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
